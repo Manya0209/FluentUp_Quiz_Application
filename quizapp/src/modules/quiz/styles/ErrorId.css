@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor);
+    height: 86vh;
+    margin-top: 62px;
+}
+  
+.quiz-page {
+    padding: 20px;
+    display: flex;
+    background-color: var(--primaryColor);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+}
+  
+.score-section {
+    background-color: var(--primaryColor);
+    padding: 20px;
+}
+  
+.score-section h2 {
+    color: var(--accentColor);
+}
+  
+.score-section h4 {
+    color: var(--accentColor);
+}
+  
+.table-container {
+    background-color: var(--secondaryColor);
+    overflow-y: auto;
+    height: 42vh;
+}
+  
+.table {
+    min-height: 500px;
+}
+  
+.t-head {
+    background-color: var(--primaryColor);
+}
+  
+.t-row {
+    background-color: var(--secondaryColor);
+}
+  
+.t-cell {
+    padding: 10px;
+}
+  
+.t-cell {
+    background-color: var(--primaryColor);
+    color: white;
+}

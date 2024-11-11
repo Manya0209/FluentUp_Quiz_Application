@@ -1,0 +1,48 @@
+:root {
+    --primaryColor: #DEB69C;
+    --secondaryColor: #CD9692;
+    --accentColor: #9C9797;
+    --backgroundColor: #FEF7E5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor);
+    height: 86vh;
+    margin-top: 62px;
+}
+  
+.quiz-page {
+    padding: 20px;
+    background-color: var(--primaryColor);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+}
+  
+.question-section {
+    padding: 20px;
+    margin: auto;
+}
+
+.question-section h2 {
+    color: var(--accentColor);
+}
+
+.timer {
+    font-size: 18px;
+    color: black;
+}
+
+.next-button {
+    background-color: var(--accentColor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+

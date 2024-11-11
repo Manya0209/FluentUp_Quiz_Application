@@ -1,0 +1,67 @@
+
+/* Styles for the FAQ section */
+.faq-section {
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center;
+  }
+  
+  .faq-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Separator line */
+    padding-bottom: 10px;
+  }
+  
+  .faq-question {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .faq-answer {
+    display: none;
+    font-size: 16px;
+    color: #555;
+    padding-top: 10px;
+  }
+  
+  .faq-answer.show {
+    display: block;
+  }
+  
+  .faq-plus-sign {
+    font-size: 22px;
+    color: #F0C8A3;
+  }
+  
+  /* Card styling for the main section */
+  .card {
+    background-color: #FEF7E5;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #F0C8A3;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #DEB69C;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #CD9692;
+  }
+  
